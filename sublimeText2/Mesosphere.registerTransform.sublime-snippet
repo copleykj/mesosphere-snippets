@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+Mesosphere.registerTransform("${1:transformName}", function(${2:string}){
+	//return the transformed value
+	$3
+});
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>Mesosphere.registerTransform</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>

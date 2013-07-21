@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+Mesosphere.registerRule("${1:ruleName}", function(${2:fieldValue}, ${3:ruleValue}${4:, ${5:fieldName}, ${6:formFieldsObject}, ${7:fieldRequirements}}){
+	//return false if failed rule, true otherwise
+	$8
+});
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>Mesosphere.registerRule</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>

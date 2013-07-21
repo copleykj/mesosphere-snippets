@@ -1,0 +1,24 @@
+<snippet>
+	<content><![CDATA[
+Mesosphere({
+	name:"${1:formName}",
+	method: "${2:methodName}",
+	aggregates:{},
+	fields:{
+		${3:fieldName}:{
+			required:true,
+			rules:{
+				${4:ruleName:value}
+			},
+			transforms:[],
+			format:"",
+			message:"${5:Error Message Here}"
+		}
+	}
+});
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>Mesosphere()</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>
