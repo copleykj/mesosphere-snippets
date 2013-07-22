@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+Mesosphere.${1:formName}.validate(${2:rawData}, function(${3:errors}, ${4:formData}){
+    if(!${3:errors}){
+        $5
+    }
+});
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>Mesosphere.validate</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>
